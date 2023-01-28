@@ -1,23 +1,64 @@
 {
-  "siesta": true,
+  "season": 2,
+  "guideurl": "https://at.tumblr.com/nymills/blaseball-season-2-new-york-millennials-voting/9svjtw3nbhrd",
   "votetypes": [
     {
-      "label": "VOTING",
-      "value": 0.34,
+      "label": "NEW PitchingBoost",
+      "value": 0.22,
       "includeInTotal": true,
-      "type": "other"
+      "type": "blessing",
+      "order": 1
     },
     {
-      "label": "GUIDE",
-      "value": 0.33,
+      "label": "NEW Batting Boost",
+      "value": 0.2,
       "includeInTotal": true,
-      "type": "other"
+      "type": "blessing",
+      "order": 2
     },
     {
-      "label": "SATURDAY",
-      "value": 0.33,
+      "label": "Telekinesis",
+      "value": 0.2,
       "includeInTotal": true,
-      "type": "other"
+      "type": "blessing",
+      "order": 3
+    },
+    {
+      "label": "Yeet*",
+      "value": 0.15,
+      "includeInTotal": true,
+      "type": "blessing",
+      "order": 4
+    },
+    {
+      "label": "Ball Hawk",
+      "value": 0.12,
+      "includeInTotal": true,
+      "type": "blessing",
+      "order": 5
+    },
+    {
+      "label": "Muted",
+      "value": 0.1,
+      "includeInTotal": true,
+      "type": "wimdy",
+      "order": 100
+    },
+    {
+      "label": "Wind Sprints (WIMDY)",
+      "value": 0.01,
+      "includeInTotal": true,
+      "type": "blessing",
+      "order": 101
     }
+  ],
+  "wimdys": [
+    "Dark Matter*",
+    "Shadow Play*",
+    "Stong Start",
+    "Rogue Strike",
+    "Knight Strike",
+    "Mage Strike",
+    "Bard Strike"
   ]
 }
